@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.techkshetra.calculator.MainActivity">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="num1"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="num2"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="result" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#28a745"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#28a745"
+        android:text="sub" />
+
+    <Button
+        android:id="@+id/multiplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#28a745"
+        android:text="multiplication" />
+
+    <Button
+        android:id="@+id/division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#28a745"
+        android:text="division" />
+</LinearLayout>
